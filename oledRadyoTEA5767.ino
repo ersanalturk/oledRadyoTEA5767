@@ -112,7 +112,7 @@ void loop() {
       if(frequency>87.0f){
     frequency-=0.1f;
     radio.selectFrequency(frequency);
-    oledYaz()
+    oledYaz();
     }
   }
   }
